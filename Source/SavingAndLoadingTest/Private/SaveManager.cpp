@@ -101,7 +101,6 @@ void USaveManager::LoadGame()
 		//saving a default slot
 		if (GEngine)
 			GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Magenta, "Trying to load: " + CurrentSaveSlot + " but it is null");
-		return;
 		SaveGame();
 		
 
