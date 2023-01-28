@@ -6,11 +6,6 @@
 #include "UObject/ConstructorHelpers.h"
 
 
-ASavingGameModeBase::ASavingGameModeBase()
-{
-
-}
-
 
 void ASavingGameModeBase::InitGameState()
 {

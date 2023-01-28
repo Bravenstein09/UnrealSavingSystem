@@ -38,7 +38,7 @@ public: \
 
 #define FID_Users_Van_Wie_Documents_Unreal_Projects_CreatingPlugins_Plugins_SavingSystem_Source_SavingSystem_Public_SavingGameModeBase_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ASavingGameModeBase(const FObjectInitializer& ObjectInitializer); \
+	NO_API ASavingGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASavingGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASavingGameModeBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASavingGameModeBase); \
@@ -51,6 +51,8 @@ public: \
 
 
 #define FID_Users_Van_Wie_Documents_Unreal_Projects_CreatingPlugins_Plugins_SavingSystem_Source_SavingSystem_Public_SavingGameModeBase_h_16_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ASavingGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASavingGameModeBase(ASavingGameModeBase&&); \
@@ -58,7 +60,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASavingGameModeBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASavingGameModeBase); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASavingGameModeBase) \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASavingGameModeBase) \
 	NO_API virtual ~ASavingGameModeBase();
 
 

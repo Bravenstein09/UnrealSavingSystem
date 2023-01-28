@@ -15,7 +15,5 @@ class SAVINGSYSTEM_API ASavingGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 
-		ASavingGameModeBase();
-
 		virtual void InitGameState() override;
 };
