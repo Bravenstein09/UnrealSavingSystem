@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SavingSystem",
+	"Description": "A saving system based off the one made by reids",
+	"Category": "Other",
+	"CreatedBy": "Braven_vw",
+	"CreatedByURL": "https://github.com/Bravenstein09/UnrealSavingSystem",
+	"DocsURL": "https://www.youtube.com/watch?v=doO4g7eUlfs&t=1801s",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/Bravenstein09/UnrealSavingSystem",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SavingSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

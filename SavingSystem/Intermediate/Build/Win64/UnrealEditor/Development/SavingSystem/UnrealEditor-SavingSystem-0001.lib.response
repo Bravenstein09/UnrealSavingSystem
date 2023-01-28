@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SavingSystem-0001.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Van Wie\Documents\Unreal Projects\CreatingPlugins\Intermediate\Build\Win64\CreatingPluginsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Van Wie\Documents\Unreal Projects\CreatingPlugins\Plugins\SavingSystem\Intermediate\Build\Win64\UnrealEditor\Development\SavingSystem\Module.SavingSystem.cpp.obj"
+"C:\Users\Van Wie\Documents\Unreal Projects\CreatingPlugins\Plugins\SavingSystem\Intermediate\Build\Win64\UnrealEditor\Development\SavingSystem\Default.rc2.res"
+/OUT:"C:\Users\Van Wie\Documents\Unreal Projects\CreatingPlugins\Plugins\SavingSystem\Intermediate\Build\Win64\UnrealEditor\Development\SavingSystem\UnrealEditor-SavingSystem-0001.lib"

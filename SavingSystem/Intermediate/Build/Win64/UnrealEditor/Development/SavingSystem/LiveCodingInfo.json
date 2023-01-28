@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SavingSystem.cpp.obj": [
+			"SaveGameData.gen.cpp.obj",
+			"SaveGameMetadata.gen.cpp.obj",
+			"SaveInterface.gen.cpp.obj",
+			"SaveManager.gen.cpp.obj",
+			"SaveMetadata.gen.cpp.obj",
+			"SaveSlotObject.gen.cpp.obj",
+			"SavingGameInstance.gen.cpp.obj",
+			"SavingGameModeBase.gen.cpp.obj",
+			"SavingSystem.init.gen.cpp.obj",
+			"SaveManager.cpp.obj",
+			"SavingGameInstance.cpp.obj",
+			"SavingGameModeBase.cpp.obj",
+			"SavingSystem.cpp.obj"
+		]
+	}
+}
